@@ -8,9 +8,10 @@ spring:
     password: 1234
   main:
     banner-mode: off
-
+# mp??
+# mybatis-plus???????
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
-    banner: off
+    banner: off # ??mybatisplus????
