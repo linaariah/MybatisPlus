@@ -9,23 +9,28 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.Naariah</groupId>
-    <artifactId>mybatisplus_01_quickstart</artifactId>
+    <artifactId>mybatisplus_02_dql</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mybatisplus_01_quickstart</name>
-    <description>mybatisplus_01_quickstart</description>
+    <name>mybatisplus_02_dql</name>
+    <description>mybatisplus_02_dql</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
         <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.1.16</version>
         </dependency>
+
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.4.2</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,10 +46,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 
